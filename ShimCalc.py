@@ -29,8 +29,8 @@ for L in range(0, len(inputs.shims)+1):
             error_3 = abs(target_3 - sum(combo))
 
 if result_1:
-    print('{} - error = {}º'.format(result_1, error_1 / pitch * 360))
+    print('{} - error = {}º'.format(result_1, round(error_1 / pitch * 360, 3)))
 if result_2:
-    print('{} - error = {}º'.format(result_2, error_2 / pitch * 360))
+    print('{} - error = {}º'.format(result_2, round(error_2 / pitch * 360, 3)))
 if result_3:
-    print('{} - error = {}º'.format(result_3, error_3 / pitch * 360))
+    print('{} - error = {}º'.format(result_3, round(error_3 / pitch * 360, 3)))
