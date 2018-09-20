@@ -4,13 +4,13 @@ ShimCalc is a simple python script that determines the best possible combination
 
 -----
 
-####Requirements
+#### Requirements
 
 Python 3.X
 
 -----
 
-####Inputs
+#### Inputs
 
 The required inputs (found in **inputs.py**) are:
 
@@ -26,7 +26,7 @@ The required inputs (found in **inputs.py**) are:
 
 -----
 
-####Outputs
+#### Outputs
 
 Running ShimCalc.py will print a list in the console/terminal with the following values:
 
@@ -54,6 +54,6 @@ Running ShimCalc.py will print a list in the console/terminal with the following
 
 -----
 
-####Notes
+#### Notes
 
 This calculator does not take into account deformation of the shims from compressive forces, on the assumption that the amount of torque generally used for installation will not cause significant deformation.  That, and the code would get super complexificated.
