@@ -38,17 +38,25 @@ Running ShimCalc.py will print a list in the console/terminal with the following
 
 
     Angle: 30.0
+    
     Shims: 0.003
+    
     Error: -0.24º
 
 
+
     Angle: 390.0
+    
     Shims: 0.002 + 0.003 + 0.004 + 0.03
+    
     Error: -3.12º
 
 
+
     Angle: 750.0
+    
     Shims: 0.002 + 0.002 + 0.003 + 0.003 + 0.004 + 0.004 + 0.008 + 0.008 + 0.01 + 0.03
+    
     Error: 4.08º
     
 
