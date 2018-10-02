@@ -7,7 +7,7 @@ import inputs
 if not inputs.shims:
     print('No available shims for calculation.')
     sys.exit()
-if inputs.degrees <= 0 or 360 <= inputs.degrees:
+if inputs.degrees <= 0 or 360 >= inputs.degrees:
     print('Invalid angle - enter and angle between 0 and 360 degrees.')
     sys.exit()
 if inputs.threads_per_inch <= 0:
